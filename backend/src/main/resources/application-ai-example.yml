@@ -1,0 +1,13 @@
+# AI 形象顾问国内 OpenAI 兼容接口配置示例。
+# 不要把真实 key 提交到代码仓库，建议通过环境变量 BFSM_AI_API_KEY 注入。
+bfsm:
+  ai:
+    enabled: true
+    provider: openai-compatible
+    base-url: ${BFSM_AI_BASE_URL:https://open.bigmodel.cn/api/paas/v4}
+    chat-completions-path: ${BFSM_AI_CHAT_COMPLETIONS_PATH:/chat/completions}
+    model: ${BFSM_AI_MODEL:glm-4v-flash}
+    api-key: ${BFSM_AI_API_KEY:}
+    temperature: 0.4
+    fallback-to-local: false
+    allow-degraded-response: true

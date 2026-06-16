@@ -1,0 +1,44 @@
+# Dependencies
+frontend/node_modules/
+
+# Build outputs
+frontend/dist/
+backend/target/
+
+# Logs
+*.log
+*.out.log
+*.err.log
+backend/cp.txt
+backend/jar.err
+backend/jar.log
+
+# Runtime uploads and generated media
+uploads/
+backend/uploads/
+backend/src/main/resources/static/avators/
+docs/rendered*/
+outputs/
+
+# IDE and editor files
+.idea/
+.vscode/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+~$*.docx
+~$*.xlsx
+~$*.pptx
+frontend/vite.config.ts.timestamp-*.mjs
+frontend/*-preview.png
+
+# Environment files
+.env
+.env.*
+!.env.example

@@ -1,0 +1,574 @@
+<mxfile host="app.diagrams.net" agent="Codex">
+  <diagram id="service-appointment-core-er" name="服务预约核心ER图">
+    <mxGraphModel dx="1520" dy="876" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2200" pageHeight="1450" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="role" parent="1" style="whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;" value="角色" vertex="1">
+          <mxGeometry height="58" width="120" x="292" y="406" as="geometry" />
+        </mxCell>
+        <mxCell id="role_id" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;" value="角色id" vertex="1">
+          <mxGeometry height="46" width="100" x="182" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="role_code" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;" value="角色编码" vertex="1">
+          <mxGeometry height="46" width="120" x="282" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="role_name" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;" value="角色名称" vertex="1">
+          <mxGeometry height="46" width="120" x="402" y="355" as="geometry" />
+        </mxCell>
+        <mxCell id="user" parent="1" style="whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;" value="用户" vertex="1">
+          <mxGeometry height="58" width="120" x="257" y="638" as="geometry" />
+        </mxCell>
+        <mxCell id="user_id" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;" value="用户id" vertex="1">
+          <mxGeometry height="46" width="100" x="150" y="598" as="geometry" />
+        </mxCell>
+        <mxCell id="username" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;" value="用户名" vertex="1">
+          <mxGeometry height="46" width="108" x="210" y="552" as="geometry" />
+        </mxCell>
+        <mxCell id="password" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;" value="密码" vertex="1">
+          <mxGeometry height="46" width="100" x="407" y="555" as="geometry" />
+        </mxCell>
+        <mxCell id="phone" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;" value="手机号" vertex="1">
+          <mxGeometry height="46" width="110" x="157" y="713" as="geometry" />
+        </mxCell>
+        <mxCell id="nickname" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;" value="昵称" vertex="1">
+          <mxGeometry height="46" width="100" x="267" y="738" as="geometry" />
+        </mxCell>
+        <mxCell id="user_status" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;" value="状态" vertex="1">
+          <mxGeometry height="46" width="100" x="370" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="technician" parent="1" style="whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;" value="技师" vertex="1">
+          <mxGeometry height="60" width="130" x="562" y="234" as="geometry" />
+        </mxCell>
+        <mxCell id="tech_id" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;" value="技师id" vertex="1">
+          <mxGeometry height="46" width="104" x="451" y="152" as="geometry" />
+        </mxCell>
+        <mxCell id="tech_user_id" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;" value="用户id" vertex="1">
+          <mxGeometry height="46" width="100" x="562" y="144" as="geometry" />
+        </mxCell>
+        <mxCell id="tech_name" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;" value="技师姓名" vertex="1">
+          <mxGeometry height="46" width="124" x="661" y="158" as="geometry" />
+        </mxCell>
+        <mxCell id="tech_level" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;" value="等级" vertex="1">
+          <mxGeometry height="46" width="100" x="427" y="216" as="geometry" />
+        </mxCell>
+        <mxCell id="tech_score" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;" value="评分" vertex="1">
+          <mxGeometry height="46" width="100" x="420" y="284" as="geometry" />
+        </mxCell>
+        <mxCell id="tech_status" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;" value="状态" vertex="1">
+          <mxGeometry height="46" width="100" x="705" y="216" as="geometry" />
+        </mxCell>
+        <mxCell id="schedule" parent="1" style="whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;" value="排班" vertex="1">
+          <mxGeometry height="58" width="120" x="590" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="schedule_id" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;" value="排班id" vertex="1">
+          <mxGeometry height="44" width="104" x="470" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="work_date" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;" value="工作日期" vertex="1">
+          <mxGeometry height="44" width="120" x="480" y="601" as="geometry" />
+        </mxCell>
+        <mxCell id="schedule_status" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;" value="状态" vertex="1">
+          <mxGeometry height="44" width="100" x="600" y="612" as="geometry" />
+        </mxCell>
+        <mxCell id="leave" parent="1" style="whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;" value="请假记录" vertex="1">
+          <mxGeometry height="58" width="130" x="860" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="leave_id" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;" value="请假id" vertex="1">
+          <mxGeometry height="44" width="104" x="743" y="517" as="geometry" />
+        </mxCell>
+        <mxCell id="leave_time" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;" value="起止时间" vertex="1">
+          <mxGeometry height="44" width="120" x="795" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="leave_reason" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;" value="原因" vertex="1">
+          <mxGeometry height="44" width="100" x="985" y="456" as="geometry" />
+        </mxCell>
+        <mxCell id="leave_status" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;" value="状态" vertex="1">
+          <mxGeometry height="44" width="100" x="805" y="613" as="geometry" />
+        </mxCell>
+        <mxCell id="leave_reviewer" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;" value="审批人id" vertex="1">
+          <mxGeometry height="44" width="120" x="935" y="613" as="geometry" />
+        </mxCell>
+        <mxCell id="attendance" parent="1" style="whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;" value="考勤记录" vertex="1">
+          <mxGeometry height="58" width="130" x="1130" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="attendance_id" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;" value="考勤id" vertex="1">
+          <mxGeometry height="44" width="104" x="1021" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="attendance_date" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;" value="工作日期" vertex="1">
+          <mxGeometry height="44" width="120" x="1140" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="check_time" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;" value="签到签退" vertex="1">
+          <mxGeometry height="44" width="124" x="1260" y="586" as="geometry" />
+        </mxCell>
+        <mxCell id="attendance_status" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;" value="状态" vertex="1">
+          <mxGeometry height="44" width="100" x="1157.5" y="586" as="geometry" />
+        </mxCell>
+        <mxCell id="service_category" parent="1" style="whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;" value="服务分类" vertex="1">
+          <mxGeometry height="58" width="130" x="1367" y="417" as="geometry" />
+        </mxCell>
+        <mxCell id="category_id" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;" value="分类id" vertex="1">
+          <mxGeometry height="46" width="104" x="1288" y="355" as="geometry" />
+        </mxCell>
+        <mxCell id="category_name" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;" value="分类名称" vertex="1">
+          <mxGeometry height="46" width="124" x="1312.5" y="498" as="geometry" />
+        </mxCell>
+        <mxCell id="category_sort" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;" value="排序号" vertex="1">
+          <mxGeometry height="46" width="100" x="1441.5" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="service_item" parent="1" style="whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;" value="服务项目" vertex="1">
+          <mxGeometry height="58" width="130" x="1077.5" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="service_id" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;" value="服务id" vertex="1">
+          <mxGeometry height="44" width="104" x="984.5" y="154" as="geometry" />
+        </mxCell>
+        <mxCell id="service_category_id" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;" value="分类id" vertex="1">
+          <mxGeometry height="44" width="104" x="1017.5" y="306" as="geometry" />
+        </mxCell>
+        <mxCell id="service_name" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;" value="服务名称" vertex="1">
+          <mxGeometry height="44" width="124" x="1145.5" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="duration" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;" value="时长" vertex="1">
+          <mxGeometry height="44" width="100" x="957.5" y="218" as="geometry" />
+        </mxCell>
+        <mxCell id="price" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;" value="价格" vertex="1">
+          <mxGeometry height="44" width="100" x="1102.5" y="144" as="geometry" />
+        </mxCell>
+        <mxCell id="service_status" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;" value="状态" vertex="1">
+          <mxGeometry height="44" width="100" x="1212.5" y="154" as="geometry" />
+        </mxCell>
+        <mxCell id="appointment" parent="1" style="whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;" value="预约" vertex="1">
+          <mxGeometry height="68" width="140" x="744" y="783" as="geometry" />
+        </mxCell>
+        <mxCell id="appointment_id" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;" value="预约id" vertex="1">
+          <mxGeometry height="46" width="104" x="610" y="771" as="geometry" />
+        </mxCell>
+        <mxCell id="appointment_user_id" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;" value="用户id" vertex="1">
+          <mxGeometry height="46" width="100" x="673" y="696" as="geometry" />
+        </mxCell>
+        <mxCell id="appointment_tech_id" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;" value="技师id" vertex="1">
+          <mxGeometry height="46" width="100" x="814" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="appointment_service_id" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;" value="服务id" vertex="1">
+          <mxGeometry height="46" width="100" x="894" y="766" as="geometry" />
+        </mxCell>
+        <mxCell id="appointment_time" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;" value="预约时间" vertex="1">
+          <mxGeometry height="46" width="124" x="600" y="842" as="geometry" />
+        </mxCell>
+        <mxCell id="appointment_end_time" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;" value="结束时间" vertex="1">
+          <mxGeometry height="46" width="124" x="619" y="898" as="geometry" />
+        </mxCell>
+        <mxCell id="appointment_status" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;" value="状态" vertex="1">
+          <mxGeometry height="46" width="100" x="784" y="913" as="geometry" />
+        </mxCell>
+        <mxCell id="appointment_pay_status" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;" value="支付状态" vertex="1">
+          <mxGeometry height="46" width="120" x="884" y="865" as="geometry" />
+        </mxCell>
+        <mxCell id="appointment_amount" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;" value="金额" vertex="1">
+          <mxGeometry height="46" width="100" x="699" y="942" as="geometry" />
+        </mxCell>
+        <mxCell id="appointment_log" parent="1" style="whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;" value="预约日志" vertex="1">
+          <mxGeometry height="60" width="140" x="270" y="825" as="geometry" />
+        </mxCell>
+        <mxCell id="log_id" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;" value="日志id" vertex="1">
+          <mxGeometry height="46" width="104" x="181" y="895" as="geometry" />
+        </mxCell>
+        <mxCell id="log_operator" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;" value="操作人id" vertex="1">
+          <mxGeometry height="46" width="120" x="130" y="826" as="geometry" />
+        </mxCell>
+        <mxCell id="log_time" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;" value="创建时间" vertex="1">
+          <mxGeometry height="46" width="116" x="408" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="from_status" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;" value="原状态" vertex="1">
+          <mxGeometry height="46" width="116" x="302" y="895" as="geometry" />
+        </mxCell>
+        <mxCell id="to_status" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;" value="新状态" vertex="1">
+          <mxGeometry height="46" width="116" x="425" y="865" as="geometry" />
+        </mxCell>
+        <mxCell id="payment_order" parent="1" style="whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;" value="预约支付单" vertex="1">
+          <mxGeometry height="60" width="155" x="1101" y="844" as="geometry" />
+        </mxCell>
+        <mxCell id="payment_id" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;" value="支付单id" vertex="1">
+          <mxGeometry height="46" width="116" x="972.5" y="832" as="geometry" />
+        </mxCell>
+        <mxCell id="payment_no" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;" value="支付编号" vertex="1">
+          <mxGeometry height="46" width="124" x="1117" y="771" as="geometry" />
+        </mxCell>
+        <mxCell id="payment_channel" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;" value="渠道" vertex="1">
+          <mxGeometry height="46" width="100" x="1245" y="934" as="geometry" />
+        </mxCell>
+        <mxCell id="payment_amount" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;" value="金额" vertex="1">
+          <mxGeometry height="46" width="100" x="1041" y="934" as="geometry" />
+        </mxCell>
+        <mxCell id="payment_status" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;" value="状态" vertex="1">
+          <mxGeometry height="46" width="100" x="1141" y="934" as="geometry" />
+        </mxCell>
+        <mxCell id="payment_time" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;" value="支付时间" vertex="1">
+          <mxGeometry height="46" width="116" x="1268" y="884" as="geometry" />
+        </mxCell>
+        <mxCell id="admin" parent="1" style="whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;" value="管理员&lt;br&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;sys_user + ADMIN角色&lt;/font&gt;" vertex="1">
+          <mxGeometry height="72" width="175" x="1422.5" y="715" as="geometry" />
+        </mxCell>
+        <mxCell id="admin_id" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;" value="管理员id" vertex="1">
+          <mxGeometry height="46" width="120" x="1340" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="admin_name" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;" value="用户名" vertex="1">
+          <mxGeometry height="46" width="116" x="1392" y="584" as="geometry" />
+        </mxCell>
+        <mxCell id="admin_role" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;" value="角色编码" vertex="1">
+          <mxGeometry height="46" width="120" x="1541.5" y="656" as="geometry" />
+        </mxCell>
+        <mxCell id="admin_status" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;" value="状态" vertex="1">
+          <mxGeometry height="46" width="100" x="1520" y="804" as="geometry" />
+        </mxCell>
+        <mxCell id="r_assign" parent="1" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;" value="分配" vertex="1">
+          <mxGeometry height="80" width="90" x="307" y="498" as="geometry" />
+        </mxCell>
+        <mxCell id="r_bind" parent="1" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;" value="绑定" vertex="1">
+          <mxGeometry height="80" width="90" x="437" y="428" as="geometry" />
+        </mxCell>
+        <mxCell id="r_has_schedule" parent="1" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;" value="拥有" vertex="1">
+          <mxGeometry height="70" width="80" x="565" y="358" as="geometry" />
+        </mxCell>
+        <mxCell id="r_leave" parent="1" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;" value="申请" vertex="1">
+          <mxGeometry height="70" width="80" x="885" y="355" as="geometry" />
+        </mxCell>
+        <mxCell id="r_attendance" parent="1" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;" value="打卡" vertex="1">
+          <mxGeometry height="70" width="80" x="1021" y="366" as="geometry" />
+        </mxCell>
+        <mxCell id="r_contains" parent="1" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;" value="包含" vertex="1">
+          <mxGeometry height="80" width="90" x="1392" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="r_provide" parent="1" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;" value="提供" vertex="1">
+          <mxGeometry height="80" width="90" x="925.5" y="287" as="geometry" />
+        </mxCell>
+        <mxCell id="r_create" parent="1" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;" value="创建" vertex="1">
+          <mxGeometry height="80" width="90" x="574" y="656" as="geometry" />
+        </mxCell>
+        <mxCell id="r_accept" parent="1" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;" value="承接" vertex="1">
+          <mxGeometry height="80" width="90" x="710" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="r_select" parent="1" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;" value="选择" vertex="1">
+          <mxGeometry height="80" width="90" x="1066" y="627" as="geometry" />
+        </mxCell>
+        <mxCell id="r_log" parent="1" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;" value="记录" vertex="1">
+          <mxGeometry height="80" width="90" x="527" y="792" as="geometry" />
+        </mxCell>
+        <mxCell id="r_pay" parent="1" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;" value="生成" vertex="1">
+          <mxGeometry height="80" width="90" x="884" y="914" as="geometry" />
+        </mxCell>
+        <mxCell id="r_maintain" parent="1" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;" value="维护" vertex="1">
+          <mxGeometry height="80" width="90" x="1470" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="r_process" parent="1" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;" value="处理" vertex="1">
+          <mxGeometry height="80" width="90" x="1451.5" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="r_review" parent="1" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;" value="审批" vertex="1">
+          <mxGeometry height="80" width="90" x="1312.5" y="676" as="geometry" />
+        </mxCell>
+        <mxCell id="r_arrange" parent="1" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;" value="安排" vertex="1">
+          <mxGeometry height="80" width="90" x="1024.5" y="712" as="geometry" />
+        </mxCell>
+        <mxCell id="e_role_1" edge="1" parent="1" source="role" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" target="role_id">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_role_2" edge="1" parent="1" source="role" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" target="role_code">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_role_3" edge="1" parent="1" source="role" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" target="role_name">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_user_1" edge="1" parent="1" source="user" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" target="user_id">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_user_2" edge="1" parent="1" source="user" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" target="username">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_user_3" edge="1" parent="1" source="user" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" target="password">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_user_4" edge="1" parent="1" source="user" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" target="phone">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_user_5" edge="1" parent="1" source="user" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" target="nickname">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_user_6" edge="1" parent="1" source="user" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" target="user_status">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_tech_1" edge="1" parent="1" source="technician" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" target="tech_id">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_tech_2" edge="1" parent="1" source="technician" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" target="tech_user_id">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_tech_3" edge="1" parent="1" source="technician" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" target="tech_name">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_tech_4" edge="1" parent="1" source="technician" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" target="tech_level">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_tech_5" edge="1" parent="1" source="technician" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" target="tech_score">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_tech_6" edge="1" parent="1" source="technician" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" target="tech_status">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_schedule_1" edge="1" parent="1" source="schedule" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" target="schedule_id">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_schedule_2" edge="1" parent="1" source="schedule" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" target="work_date">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_schedule_3" edge="1" parent="1" source="schedule" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" target="work_time">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_schedule_4" edge="1" parent="1" source="schedule" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" target="schedule_status">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_leave_1" edge="1" parent="1" source="leave" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" target="leave_id">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_leave_2" edge="1" parent="1" source="leave" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" target="leave_time">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_leave_3" edge="1" parent="1" source="leave" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" target="leave_reason">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_leave_4" edge="1" parent="1" source="leave" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" target="leave_status">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_leave_5" edge="1" parent="1" source="leave" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" target="leave_reviewer">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_att_1" edge="1" parent="1" source="attendance" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" target="attendance_id">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_att_2" edge="1" parent="1" source="attendance" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" target="attendance_date">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_att_3" edge="1" parent="1" source="attendance" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" target="check_time">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_att_4" edge="1" parent="1" source="attendance" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" target="attendance_status">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_cat_1" edge="1" parent="1" source="service_category" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" target="category_id">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_cat_2" edge="1" parent="1" source="service_category" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" target="category_name">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_cat_3" edge="1" parent="1" source="service_category" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" target="category_sort">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_service_1" edge="1" parent="1" source="service_item" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" target="service_id">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_service_2" edge="1" parent="1" source="service_item" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" target="service_category_id">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_service_3" edge="1" parent="1" source="service_item" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" target="service_name">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_service_4" edge="1" parent="1" source="service_item" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" target="duration">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_service_5" edge="1" parent="1" source="service_item" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" target="price">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_service_6" edge="1" parent="1" source="service_item" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" target="service_status">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_appt_1" edge="1" parent="1" source="appointment" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" target="appointment_id">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_appt_2" edge="1" parent="1" source="appointment" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" target="appointment_user_id">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_appt_3" edge="1" parent="1" source="appointment" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" target="appointment_tech_id">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_appt_4" edge="1" parent="1" source="appointment" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" target="appointment_service_id">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_appt_5" edge="1" parent="1" source="appointment" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" target="appointment_time">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_appt_6" edge="1" parent="1" source="appointment" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" target="appointment_end_time">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_appt_7" edge="1" parent="1" source="appointment" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" target="appointment_status">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_appt_8" edge="1" parent="1" source="appointment" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" target="appointment_pay_status">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_appt_9" edge="1" parent="1" source="appointment" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" target="appointment_amount">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_log_1" edge="1" parent="1" source="appointment_log" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" target="log_id">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_log_2" edge="1" parent="1" source="appointment_log" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" target="log_operator">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_log_3" edge="1" parent="1" source="appointment_log" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" target="log_time">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_log_4" edge="1" parent="1" source="appointment_log" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" target="from_status">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_log_5" edge="1" parent="1" source="appointment_log" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" target="to_status">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_pay_1" edge="1" parent="1" source="payment_order" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" target="payment_id">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_pay_2" edge="1" parent="1" source="payment_order" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" target="payment_no">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_pay_3" edge="1" parent="1" source="payment_order" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" target="payment_channel">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_pay_4" edge="1" parent="1" source="payment_order" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" target="payment_amount">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_pay_5" edge="1" parent="1" source="payment_order" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" target="payment_status">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_pay_6" edge="1" parent="1" source="payment_order" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" target="payment_time">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_admin_1" edge="1" parent="1" source="admin" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" target="admin_id">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_admin_2" edge="1" parent="1" source="admin" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" target="admin_name">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_admin_3" edge="1" parent="1" source="admin" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" target="admin_role">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_admin_4" edge="1" parent="1" source="admin" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" target="admin_phone">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_admin_5" edge="1" parent="1" source="admin" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" target="admin_status">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="re1" edge="1" parent="1" source="role" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;" target="r_assign" value="n">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="re2" edge="1" parent="1" source="r_assign" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;" target="user" value="n">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="re3" edge="1" parent="1" source="user" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;" target="r_bind" value="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="re4" edge="1" parent="1" source="r_bind" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;" target="technician" value="0..1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="re5" edge="1" parent="1" source="technician" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;" target="r_has_schedule" value="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="re6" edge="1" parent="1" source="r_has_schedule" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;" target="schedule" value="n">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="re7" edge="1" parent="1" source="technician" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;" target="r_leave" value="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="re8" edge="1" parent="1" source="r_leave" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;" target="leave" value="n">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="re9" edge="1" parent="1" source="technician" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;" target="r_attendance" value="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="re10" edge="1" parent="1" source="r_attendance" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;" target="attendance" value="n">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="re11" edge="1" parent="1" source="service_category" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;" target="r_contains" value="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="re12" edge="1" parent="1" source="r_contains" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;" target="service_item" value="n">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="re13" edge="1" parent="1" source="technician" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;" target="r_provide" value="n">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="re14" edge="1" parent="1" source="r_provide" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;" target="service_item" value="n">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="re15" edge="1" parent="1" source="user" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;" target="r_create" value="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="re16" edge="1" parent="1" source="r_create" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;" target="appointment" value="n">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="re17" edge="1" parent="1" source="work_time" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;" target="r_accept" value="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="re18" edge="1" parent="1" source="r_accept" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;" target="appointment" value="n">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="re19" edge="1" parent="1" source="service_item" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;" target="r_select" value="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="re20" edge="1" parent="1" source="r_select" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;" target="appointment" value="n">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="re21" edge="1" parent="1" source="appointment" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;" target="r_log" value="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="re22" edge="1" parent="1" source="r_log" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;" target="appointment_log" value="n">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="re23" edge="1" parent="1" source="appointment" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;" target="r_pay" value="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="re24" edge="1" parent="1" source="r_pay" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;" target="payment_order" value="n">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="re25" edge="1" parent="1" source="admin" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;" target="r_maintain" value="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="re26" edge="1" parent="1" source="r_maintain" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;" target="service_item" value="n">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="re27" edge="1" parent="1" source="admin" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;" target="r_process" value="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="re28" edge="1" parent="1" source="admin_phone" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;" target="appointment" value="n">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="re29" edge="1" parent="1" source="admin" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;" target="r_review" value="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="re30" edge="1" parent="1" source="r_review" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;" target="leave" value="n">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="re31" edge="1" parent="1" source="admin" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;" target="r_arrange" value="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="re32" edge="1" parent="1" source="r_arrange" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;" target="schedule" value="n">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Chq-k2ariNpuO51i0pcw-1" edge="1" parent="1" source="technician" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;" target="work_time" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="718" y="240" as="sourcePoint" />
+            <mxPoint x="766" y="718" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="work_time" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;" value="时间段" vertex="1">
+          <mxGeometry height="44" width="110" x="655" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Chq-k2ariNpuO51i0pcw-2" edge="1" parent="1" source="r_process" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;" target="admin_phone" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1559" y="796" as="sourcePoint" />
+            <mxPoint x="1150" y="854" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="admin_phone" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;" value="手机号" vertex="1">
+          <mxGeometry height="46" width="110" x="1319.5" y="822" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

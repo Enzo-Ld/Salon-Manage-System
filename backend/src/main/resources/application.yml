@@ -1,0 +1,66 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: bfsm
+  datasource:
+    url: jdbc:mysql://localhost:3306/bfsm?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=Asia/Shanghai&characterEncoding=utf8
+    username: root
+    password: 123456
+  data:
+    redis:
+      host: localhost
+      port: 6379
+  servlet:
+    multipart:
+      max-file-size: 5MB
+      max-request-size: 5MB
+
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: true
+
+knife4j:
+  enable: true
+
+bfsm:
+  jwt:
+    issuer: bfsm
+    secret: ${BFSM_JWT_SECRET:bfsm-local-dev-secret-change-me-2026}
+    access-token-ttl-seconds: 7200
+  payment:
+    mode: ${BFSM_PAYMENT_MODE:MANUAL_CASHIER}
+    manual-completion-enabled: ${BFSM_PAYMENT_MANUAL_COMPLETION_ENABLED:true}
+    reconcile-fixed-delay-ms: ${BFSM_PAYMENT_RECONCILE_FIXED_DELAY_MS:60000}
+    alipay:
+      enabled: ${BFSM_ALIPAY_ENABLED:true}
+      gateway-url: ${BFSM_ALIPAY_GATEWAY_URL:https://openapi-sandbox.dl.alipaydev.com/gateway.do}
+      app-id: ${BFSM_ALIPAY_APP_ID:}
+      merchant-private-key: ${BFSM_ALIPAY_PRIVATE_KEY:}
+      alipay-public-key: ${BFSM_ALIPAY_PUBLIC_KEY:}
+      notify-url: ${BFSM_ALIPAY_NOTIFY_URL:}
+      return-url: ${BFSM_ALIPAY_RETURN_URL:http://localhost:5173/payment/result}
+      sign-type: ${BFSM_ALIPAY_SIGN_TYPE:RSA2}
+      charset: ${BFSM_ALIPAY_CHARSET:UTF-8}
+    wechat:
+      enabled: ${BFSM_WECHAT_ENABLED:true}
+      gateway-url: ${BFSM_WECHAT_GATEWAY_URL:https://api.mch.weixin.qq.com}
+      app-id: ${BFSM_WECHAT_APP_ID:}
+      mch-id: ${BFSM_WECHAT_MCH_ID:}
+      merchant-serial-no: ${BFSM_WECHAT_MERCHANT_SERIAL_NO:}
+      merchant-private-key: ${BFSM_WECHAT_MERCHANT_PRIVATE_KEY:}
+      api-v3-key: ${BFSM_WECHAT_API_V3_KEY:}
+      platform-public-key: ${BFSM_WECHAT_PLATFORM_PUBLIC_KEY:}
+      notify-url: ${BFSM_WECHAT_NOTIFY_URL:}
+      refund-notify-url: ${BFSM_WECHAT_REFUND_NOTIFY_URL:}
+  ai:
+    enabled: true
+    provider: openai-compatible
+    base-url: ${BFSM_AI_BASE_URL:https://open.bigmodel.cn/api/paas/v4}
+    chat-completions-path: ${BFSM_AI_CHAT_COMPLETIONS_PATH:/chat/completions}
+    api-key: ${BFSM_AI_API_KEY:}
+    model: ${BFSM_AI_MODEL:glm-4v-flash}
+    temperature: 0.4
+    fallback-to-local: ${BFSM_AI_FALLBACK_TO_LOCAL:false}
+    allow-degraded-response: ${BFSM_AI_ALLOW_DEGRADED_RESPONSE:false}
