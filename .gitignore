@@ -17,6 +17,8 @@ backend/jar.log
 uploads/
 backend/uploads/
 backend/src/main/resources/static/avators/
+docs/
+tools/
 docs/rendered*/
 outputs/
 
